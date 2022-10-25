@@ -1,9 +1,9 @@
-const db = require('../config/connection');
-const { User, Mood, Solution } = require('../models');
-const userSeeds = require('./userSeeds.json');
-const moodSeeds = require('./moodSeeds.json');
+const db = require("../config/connection");
+const { User, Mood, Solutions } = require("../models");
+const userSeeds = require("./userSeeds.json");
+const moodSeeds = require("./moodSeeds.json");
 
-db.once('open', async () => {
+db.once("open", async () => {
   try {
     await Mood.deleteMany({});
     await User.deleteMany({});
@@ -11,8 +11,11 @@ db.once('open', async () => {
     await User.create(userSeeds);
 
     for (let i = 0; i < moodSeeds.length; i++) {
-      const { _id, username, moodType, solutionBody } = await Mood.create(moodSeeds[i]);
-      const solutionData = await Solution.create({moodType, solutionBody})
+      const { _id, username, moodType } = await Mood.create(
+        moodSeeds[i]
+      );
+      const solutionData = await Solutions.create({ moodType, solutionBody:moodSeeds[i].solutionBody });
+  
       const user = await User.findOneAndUpdate(
         { username: username },
         {
@@ -27,6 +30,6 @@ db.once('open', async () => {
     process.exit(1);
   }
 
-  console.log('all done!');
+  console.log("all done!");
   process.exit(0);
 });
