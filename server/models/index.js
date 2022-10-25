@@ -1,5 +1,4 @@
-const User = require('./User');
-const Mood = require('./Mood');
-const Solutions = require('./Solutions');
+const User = require("./User");
+const Mood = require("./Mood");
 
 module.exports = { User, Mood };
