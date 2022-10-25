@@ -1,27 +1,27 @@
 [
   {
     "moodType": "Happy",
-    "username": "",
+    "username": "Brian Kernighan",
     "solutionBody": ""
   },
   {
     " moodType": "Sad",
-    "username": "",
+    "username": "Max Kanat-Alexander",
     "solutionBody": ""
   },
   {
     " moodType": "Anxious",
-    "username": "",
+    "username": "Why The Lucky Stiff",
     "solutionBody": ""
   },
   {
     " moodType": "Angry",
-    "username": "",
+    "username": "Kent Beck",
     "solutionBody": ""
   },
   {
     " moodType": "Happy",
-    "username": "",
+    "username": "Edward V. Berard",
     "solutionBody": ""
   },
   {
@@ -36,22 +36,22 @@
   },
   {
     " moodType": "Happy",
-    "username": "",
+    "username": "Alan Kay",
     "solutionBody": ""
   },
   {
     " moodType": "Sad",
-    "username": "",
+    "username": "C.A.R. Hoare",
     "solutionBody": ""
   },
   {
     " moodType": "Anxious",
-    "username": "",
+    "username": "David Thomas",
     "solutionBody": ""
   },
   {
     " moodType": "Angry",
-    "username": "",
+    "username": "Donald Knuth",
     "solutionBody": ""
   }
 ]
