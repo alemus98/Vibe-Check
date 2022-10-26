@@ -24,7 +24,7 @@ const typeDefs = gql`
     solutionBody: String
   }
   type Query {
-    me(id: ID!): Mood
+    me(_id: ID!): Mood
     moods(username: String): [Mood]
   }
   type Mutation {
