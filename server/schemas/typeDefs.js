@@ -25,11 +25,12 @@ const typeDefs = gql`
   }
   type Query {
     me(id: ID!): Mood
-    
+    moods(username: String): [Mood]
   }
   type Mutation {
     addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
+    addMood(moodType: String, moodText: String): Solution
   }
 `;
 module.exports = typeDefs;
