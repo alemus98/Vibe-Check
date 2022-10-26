@@ -20,6 +20,13 @@ const userSchema = new Schema(
       type: String,
       required: true,
     },
+
+    moods: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: 'Mood'
+      }
+    ]
   },
 
   {

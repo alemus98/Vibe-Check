@@ -6,6 +6,7 @@ const typeDefs = gql`
     username: String
     email: String
     password: String
+    moods: [Mood]
   }
 
   type Mood {
@@ -13,7 +14,6 @@ const typeDefs = gql`
     moodType: String
     moodText: String
     createdAt: String
-    user: User
   }
   type Auth {
     token: ID!
@@ -24,7 +24,7 @@ const typeDefs = gql`
     solutionBody: String
   }
   type Query {
-    me(_id: ID!): Mood
+    me: User
     moods(username: String): [Mood]
   }
   type Mutation {
