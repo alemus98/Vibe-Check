@@ -3,11 +3,6 @@ const dateFormat = require("../utils/dateFormat");
 
 const moodSchema = new Schema(
   {
-    user: {
-      type: Schema.Types.ObjectId,
-      ref: "User",
-    },
-
     moodType: {
       type: String,
     },
