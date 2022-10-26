@@ -1,5 +1,10 @@
 [
   {
+    "moodType": "Angry",
+    "username": "Donald Kooth",
+    "solutionBody": "So you are feeling upset, Try exercising to reduce stress levels!"
+  },
+  {
     "moodType": "Happy",
     "username": "Brian Kernighan",
     "solutionBody": "Did you know the pillsbury doughboy has a name?!It's Poppin' Fresh!"
@@ -17,7 +22,7 @@
   {
     "moodType": "Angry",
     "username": "Kent Beck",
-    "solutionBody": "lorem"
+    "solutionBody": "Your smile can heal thousands; but your anger can kill millions. Your hand-shake can encourage tens of people while your finger-pointing can turn ten thousands away from you! By Israelmore Ayivor"
   },
   {
     "moodType": "Happy",
@@ -27,31 +32,31 @@
   {
     "moodType": "Sad",
     "username": "Lernantino",
-    "solutionBody": ""
+    "solutionBody": "Someday, everything will make perfect sense. So for now, laugh at the confusion, smile through the tears, and keep reminding yourself that everything happens for a reason."
   },
   {
     "moodType": "Anxious",
     "username": "Angry",
-    "solutionBody": "lorem"
+    "solutionBody": "Nothing diminishes anxiety faster than action."
   },
   {
     "moodType": "Happy",
     "username": "Alan Kay",
-    "solutionBody": ""
+    "solutionBody": "It's a great day! Smiling is known to reduce stress so keep it up!"
   },
   {
     "moodType": "Sad",
     "username": "C.A.R. Hoare",
-    "solutionBody": "lorem"
+    "solutionBody": "Nothing is permanent in this wicked world, not even our troubles."
   },
   {
     "moodType": "Anxious",
     "username": "David Thomas",
-    "solutionBody": "lorem"
+    "solutionBody": "Stress is an ignorant state. It believes that everything is an emergency. Nothing is that important."
   },
   {
     "moodType": "Angry",
     "username": "Donald Knuth",
-    "solutionBody": "lorem"
+    "solutionBody": "Life is so short. The only person you hurt when you stay angry or hold grudges is you. Forgive everyone, including yourself. By Tom Giaquinto"
   }
 ]
