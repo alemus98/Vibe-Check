@@ -78,5 +78,25 @@
     "moodType": "Angry",
     "username": "Donald Knuth",
     "solutionBody": "We cant control what people say, but we do have a say in how we react. Refusing to give others power over our feelings is a mark of emotional intelligence."
+  },
+  {
+    "moodType": "Angry",
+    "username": "Donald Kooth",
+    "solutionBody": "Breath in through your nose, and slowly out through your mouth. For every minute you remain angry, you give up sixty seconds of peace of mind."
+  },
+  {
+    "moodType": "Happy",
+    "username": "Brian Kernighan",
+    "solutionBody": "Did you know: Happiness lowers your risk for cardiovascular disease, lowers your blood pressure, enables better sleep, improves your diet, allows you to maintain a normal body weight through regular exercise and reduces stress. So keep it up!"
+  },
+  {
+    "moodType": "Sad",
+    "username": "Max Kanat-Alexander",
+    "solutionBody": "Joke time! What do you call a fake noodle? An impasta."
+  },
+  {
+    "moodType": "Anxious",
+    "username": "Why The Lucky Stiff",
+    "solutionBody": "Mantra for Anxiety: This is not you. This is something moving through you. It can leave out of the same door it came in."
   }
 ]
