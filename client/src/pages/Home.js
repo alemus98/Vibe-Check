@@ -5,7 +5,7 @@ import { QUERY_MOODS, QUERY_ME } from "../utils/queries";
 const Home = () => {
   const { loading, data } = useQuery(QUERY_MOODS);
 
-  return <div></div>;
+  return <div>Home</div>;
 };
 
 export default Home;
