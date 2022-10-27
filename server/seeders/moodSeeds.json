@@ -58,5 +58,25 @@
     "moodType": "Angry",
     "username": "Donald Knuth",
     "solutionBody": "Life is so short. The only person you hurt when you stay angry or hold grudges is you. Forgive everyone, including yourself. By Tom Giaquinto"
+  },
+  {
+    "moodType": "Happy",
+    "username": "Alan Kay",
+    "solutionBody": "Happiness is when what you think, what you say, and what you do are in harmony."
+  },
+  {
+    "moodType": "Sad",
+    "username": "C.A.R. Hoare",
+    "solutionBody": "What do you call a pig that does karate? A pork chop!"
+  },
+  {
+    "moodType": "Anxious",
+    "username": "David Thomas",
+    "solutionBody": "Feeling anxious? Try putting an ice pack on your stomach for a few minutes!"
+  },
+  {
+    "moodType": "Angry",
+    "username": "Donald Knuth",
+    "solutionBody": "We cant control what people say, but we do have a say in how we react. Refusing to give others power over our feelings is a mark of emotional intelligence."
   }
 ]
