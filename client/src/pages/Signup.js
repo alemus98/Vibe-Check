@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
-import { useMutation } from '@apollo/client';
-import { ADD_USER } from '../utils/mutations';
+import { useMutation } from "@apollo/client";
+import { ADD_USER } from "../utils/mutations";
 
-import Auth from '../utils/auth';
+import Auth from "../utils/auth";
 
 const Signup = () => {
   const [formState, setFormState] = useState({
-    username: '',
-    email: '',
-    password: '',
+    username: "",
+    email: "",
+    password: "",
   });
   const [addUser, { error, data }] = useMutation(ADD_USER);
 
@@ -38,63 +38,67 @@ const Signup = () => {
     }
   };
 
-// TODO: re-label class/css
+  // TODO: re-label class/css
   return (
-    <main className="flex-row justify-center mb-4">
-      <div className="col-12 col-lg-10">
-        <div className="card">
-          <h4 className="card-header bg-dark text-light p-2">Sign Up</h4>
-          <div className="card-body">
-            {data ? (
-              <p>
-                Success! You may now head{' '}
-                <Link to="/">back to the homepage.</Link>
-              </p>
-            ) : (
-              <form onSubmit={handleFormSubmit}>
-                <input
-                  className="form-input"
-                  placeholder="Your username"
-                  name="username"
-                  type="text"
-                  value={formState.name}
-                  onChange={handleChange}
-                />
-                <input
-                  className="form-input"
-                  placeholder="Your email"
-                  name="email"
-                  type="email"
-                  value={formState.email}
-                  onChange={handleChange}
-                />
-                <input
-                  className="form-input"
-                  placeholder="******"
-                  name="password"
-                  type="password"
-                  value={formState.password}
-                  onChange={handleChange}
-                />
-                <button
-                  className="btn btn-block btn-primary"
-                  style={{ cursor: 'pointer' }}
-                  type="submit"
-                >
-                  Submit
-                </button>
-              </form>
-            )}
+    <div className="overlay">
+      <form>
+        <div className="con">
+          <header className="head-form">
+            <h2>Sign Up</h2>
+            <p>sign up here using your username and password</p>
+          </header>
+          <br></br>
+          <div className="field-set">
+            <span className="input-item">
+              <i className="fa fa-user-circle"></i>
+            </span>
+            <input
+              className="form-input"
+              id="text-input"
+              type="text"
+              placeholder="Email"
+              required
+            ></input>
 
-            {error && (
-              <div className="my-3 p-3 bg-danger text-white">
-                {error.message}
-              </div>
-            )}
+            <br></br>
+            <span className="input-item">
+              <i className="fa fa-key"></i>
+            </span>
+            <input
+              className="form-input"
+              type="text-input"
+              placeholder="Username"
+              id="usename"
+              name="username"
+              required
+            ></input>
+
+            <br></br>
+            <span className="input-item">
+              <i className="fa fa-key"></i>
+            </span>
+            <input
+              className="form-input"
+              type="password"
+              placeholder="Password"
+              id="pwd"
+              name="password"
+              required
+            ></input>
+
+            <br></br>
+
+            <button className="log-in"> Sign Up</button>
+          </div>
+          <div className="other">
+            <button className="btn submits sign-up">
+              Login
+              <i className="fa fa-user-plus" aria-hidden="true"></i>
+            </button>
           </div>
         </div>
-      </div>
-    </main>
+      </form>
+    </div>
   );
 };
 
