@@ -43,8 +43,8 @@ const Login = (props) => {
       <form onSubmit={handleFormSubmit}>
         <div className="con">
           <header className="head-form">
-            <h2>Sign Up</h2>
-            <p>sign up here using your username and password</p>
+            <h2>Login</h2>
+            <p>Login here using your username and password</p>
           </header>
           <br></br>
           <div className="field-set">

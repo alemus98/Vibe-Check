@@ -41,7 +41,7 @@ const Signup = () => {
   // TODO: re-label class/css
   return (
     <div className="overlay">
-      <form onSubmit={handleFormSubmit}>
+      <form   onSubmit={handleFormSubmit}>
         <div className="con">
           <header className="head-form">
             <h2>Sign Up</h2>
@@ -99,7 +99,7 @@ const Signup = () => {
           </div>
           <div className="other">
             <button type="submit" className="btn submits sign-up">
-              Login
+              Sign Up
               <i className="fa fa-user-plus" aria-hidden="true"></i>
             </button>
           </div>

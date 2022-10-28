@@ -40,9 +40,9 @@ function App() {
           {/* <Header /> */}
           <div className="container">
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/" element={<LoginSignup />} />
 
-              <Route path="/login-signup" element={<LoginSignup />} />
+              <Route path="/home " element={<Home />} />
               <Route path="/me" element={<Profile />} />
             </Routes>
           </div>
