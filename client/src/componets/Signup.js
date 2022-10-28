@@ -41,7 +41,7 @@ const Signup = () => {
   // TODO: re-label class/css
   return (
     <div className="overlay">
-      <form   onSubmit={handleFormSubmit}>
+      <form onSubmit={handleFormSubmit}>
         <div className="con">
           <header className="head-form">
             <h2>Sign Up</h2>
