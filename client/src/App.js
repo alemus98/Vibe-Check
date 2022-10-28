@@ -40,7 +40,7 @@ function App() {
         <div className="container min-100-vh">
           <Routes>
             <Route path="/" element={<LoginSignup />} />
-            <Route path="/home " element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/me" element={<Profile />} />
           </Routes>
         </div>
