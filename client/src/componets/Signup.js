@@ -6,7 +6,6 @@ import { ADD_USER } from "../utils/mutations";
 import "../css/sign.css";
 import Auth from "../utils/auth";
 
-
 const Signup = () => {
   const [formState, setFormState] = useState({
     username: "",
@@ -42,7 +41,7 @@ const Signup = () => {
   // TODO: re-label class/css
   return (
     <div className="overlay">
-      <form>
+      <form onSubmit={handleFormSubmit}>
         <div className="con">
           <header className="head-form">
             <h2>Sign Up</h2>
@@ -54,9 +53,12 @@ const Signup = () => {
               <i className="fa fa-user-circle"></i>
             </span>
             <input
+              value={formState.email}
               className="form-input"
               id="text-input"
               type="text"
+              onChange={handleChange}
+              name="email"
               placeholder="Email"
               required
             ></input>
@@ -66,10 +68,12 @@ const Signup = () => {
               <i className="fa fa-key"></i>
             </span>
             <input
+              value={formState.username}
               className="form-input"
               type="text-input"
               placeholder="Username"
-              id="usename"
+              onChange={handleChange}
+              id="username"
               name="username"
               required
             ></input>
@@ -79,9 +83,11 @@ const Signup = () => {
               <i className="fa fa-key"></i>
             </span>
             <input
+              value={formState.password}
               className="form-input"
               type="password"
               placeholder="Password"
+              onChange={handleChange}
               id="pwd"
               name="password"
               required
@@ -89,10 +95,10 @@ const Signup = () => {
 
             <br></br>
 
-            <button className="log-in"> Sign Up</button>
+            {/* <button type="submit" className="log-in"> Sign Up</button> */}
           </div>
           <div className="other">
-            <button className="btn submits sign-up">
+            <button type="submit" className="btn submits sign-up">
               Login
               <i className="fa fa-user-plus" aria-hidden="true"></i>
             </button>
