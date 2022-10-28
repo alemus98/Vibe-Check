@@ -4,45 +4,94 @@ import { QUERY_MOODS, QUERY_ME } from "../utils/queries";
 
 const Home = () => {
   const { loading, data } = useQuery(QUERY_MOODS);
-
   return (
     <div>
       <h2 className="welcome">Hello! How are you feeling today?</h2>
       <div className="selectmood">
-        <button type="submit" className="happyIcon" onClick="addThought()">
+        <label className="iconImg">
           <img
             src="https://cdn-icons-png.flaticon.com/512/187/187159.png"
+            alt="happy"
             height="150"
             width="150"
+            class="sc-AxgMl cVmQYF"
           ></img>
-        </button>
-
-        <button className="madIcon">
+          <input
+            name="pickedMood"
+            type="radio"
+            className="hidecheckbox"
+            value="happy"
+          ></input>
+          <span>Happy</span>
+        </label>
+        <label class="iconImg">
           <img
             src="https://cdn-icons-png.flaticon.com/512/260/260171.png"
+            alt="angry"
             height="150"
             width="150"
+            class="sc-AxgMl cVmQYF"
           ></img>
-        </button>
+          <input
+            name="pickedMood"
+            type="radio"
+            className="hidecheckbox"
+            value="angry"
+          ></input>
+          <span>Angry</span>
+        </label>
 
-        <button className="sadIcon">
+        <label class="iconImg">
           <img
             src="https://cdn-icons-png.flaticon.com/512/2164/2164329.png"
+            alt="sad"
             height="150"
             width="150"
+            class="sc-AxgMl cVmQYF"
           ></img>
-        </button>
-
-        <button className="scaredIcon">
+          <input
+            name="pickedMood"
+            type="radio"
+            className="hidecheckbox"
+            value="sad"
+          ></input>
+          <span>Sad</span>
+        </label>
+        <label class="iconImg">
           <img
             src="https://cdn-icons-png.flaticon.com/512/2341/2341880.png"
+            alt="anxious"
             height="150"
             width="150"
+            class="sc-AxgMl cVmQYF"
           ></img>
-        </button>
+          <input
+            name="pickedMood"
+            type="radio"
+            className="hidecheckbox"
+            value="anxious"
+          ></input>
+          <span>Anxious</span>
+        </label>
+      </div>
+      <div class="thoughtsContainer">
+        <h2 class="message"> Have some toughts? </h2>
+        <textarea
+          name="note"
+          id="note"
+          placeholder="It was an awesome day!"
+          rows="3"
+          class="feelingsInput"
+        ></textarea>
+        <div class="savefeeling">
+          <button type="submit" class="submitInput">
+            <span class="bttnTxt"> Save mood </span>
+          </button>
+          <button type="submit" class="submitInput">
+            <span class="bttnTxt"> Visit Profile</span>
+          </button>
+        </div>
       </div>
     </div>
   );
 };
-
-export default Home;
