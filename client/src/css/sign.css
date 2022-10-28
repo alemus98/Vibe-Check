@@ -37,11 +37,13 @@ form {
     box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
     padding: 2%;
     background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+   
 }
 
 form .con {
     display: -webkit-flex;
     display: flex;
+   
   
     -webkit-justify-content: space-around;
     justify-content: space-around;
@@ -131,6 +133,7 @@ button {
 .frgt-pass {background: transparent;}
 
 .sign-up {background: #B8F2E6;}
+
 
 
 

@@ -3,9 +3,13 @@ import Signup from "../componets/Signup";
 
 export default function LoginSignup() {
   return (
-    <div>
-      <Login />
-      <Signup />
+    <div className="row">
+      <div className="col-6">
+        <Login />
+      </div>
+      <div className="col-6">
+        <Signup />
+      </div>
     </div>
   );
 }

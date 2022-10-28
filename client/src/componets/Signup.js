@@ -99,7 +99,7 @@ const Signup = () => {
           </div>
           <div className="other">
             <button type="submit" className="btn submits sign-up">
-              Login
+              Sign Up
               <i className="fa fa-user-plus" aria-hidden="true"></i>
             </button>
           </div>
