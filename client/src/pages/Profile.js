@@ -30,6 +30,8 @@ const Profile = () => {
       </h4>
     );
   }
-  return <div></div>;
+  return <div>
+    profile
+  </div>;
 };
 export default Profile;

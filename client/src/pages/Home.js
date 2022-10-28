@@ -1,10 +1,26 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+import { Navbar, Nav, Container, Modal, Tab } from 'react-bootstrap';
 import { useQuery } from "@apollo/client";
 import { QUERY_MOODS, QUERY_ME } from "../utils/queries";
+import Auth from "../utils/auth";
 
 const Home = () => {
   const { loading, data } = useQuery(QUERY_MOODS);
   return (
+    <div>
+      <Navbar bg="light" expand="lg">
+      <Container>
+        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link as={Link} to="/me">Profile</Nav.Link>
+            <Nav.Link href="#link">Link</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
     <div>
       <h2 className="welcome">Hello! How are you feeling today?</h2>
       <div className="selectmood">
@@ -92,6 +108,7 @@ const Home = () => {
           </button>
         </div>
       </div>
+    </div>
     </div>
   );
 };
