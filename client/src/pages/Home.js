@@ -54,7 +54,7 @@ const Home = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as={Link} to="/me">Profile</Nav.Link>
+              <Nav.Link onClick="window.location.reload();" as={Link} to="/me">Profile</Nav.Link>
               <Nav.Link as={Link} to="/" >Logout</Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -156,7 +156,9 @@ const Home = () => {
             </div>
           </form>
           : (
+            <section className="thoughtsContainer">
             <p>{solution}</p>
+            </section>
           )
         }
       </div>
