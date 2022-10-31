@@ -17,9 +17,9 @@ Our motivation behind Mood App was to create a simplified version of an everyday
 ## Repo Link
 https://github.com/alemus98/Mood-App
 ## Screenshot
-<!-- ![screenshot](insert screenshot here) -->
+![screenshot](./imgs/Mood%20app%20pic.png)
 ## Contributors
-* Josh Murray
+* Josh Murray 
 * Sean Fitzgerald
 * Jonathan Wong
 * Andres Lemus
