@@ -50,7 +50,7 @@ const Signup = () => {
           <br></br>
           <div className="field-set">
             <span className="input-item">
-              <i className="fa fa-user-circle"></i>
+              {/* <i className="fa fa-user-circle"></i> */}
             </span>
             <input
               value={formState.email}

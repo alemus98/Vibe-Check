@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">Vibe Check</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -30,13 +30,14 @@ const Home = () => {
             alt="happy"
             height="150"
             width="150"
-            class="sc-AxgMl cVmQYF"
+        
           ></img>
           <input
             name="pickedMood"
             type="radio"
-            className="hidecheckbox"
+            className="radiobttn"
             value="happy"
+            
           ></input>
           <span>Happy</span>
         </label>
@@ -46,12 +47,13 @@ const Home = () => {
             alt="angry"
             height="150"
             width="150"
-            class="sc-AxgMl cVmQYF"
+           
           ></img>
           <input
             name="pickedMood"
             type="radio"
-            className="hidecheckbox"
+            
+            className="radiobttn"
             value="angry"
           ></input>
           <span>Angry</span>
@@ -63,35 +65,35 @@ const Home = () => {
             alt="sad"
             height="150"
             width="150"
-            class="sc-AxgMl cVmQYF"
+           
           ></img>
           <input
             name="pickedMood"
             type="radio"
-            className="hidecheckbox"
+            className="radiobttn"
             value="sad"
           ></input>
           <span>Sad</span>
         </label>
         <label class="iconImg">
           <img
-            src="https://cdn-icons-png.flaticon.com/512/2341/2341880.png"
+            src="https://cdn.icon-icons.com/icons2/1865/PNG/512/nervous_119559.png"
             alt="anxious"
             height="150"
             width="150"
-            class="sc-AxgMl cVmQYF"
+            
           ></img>
           <input
             name="pickedMood"
             type="radio"
-            className="hidecheckbox"
+            className="radiobttn"
             value="anxious"
           ></input>
           <span>Anxious</span>
         </label>
       </div>
       <div class="thoughtsContainer">
-        <h2 class="message"> Have some toughts? </h2>
+        <h2 class="message"> Have some thoughts? </h2>
         <textarea
           name="note"
           id="note"

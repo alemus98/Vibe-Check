@@ -48,6 +48,11 @@ const Login = (props) => {
           </header>
           <br></br>
           <div className="field-set">
+            {/* <span className="input-item">
+              <i className="fa fa-user-circle"></i>
+            </span> */}
+
+            <br></br>
             <span className="input-item">
               <i className="fa fa-key"></i>
             </span>
