@@ -55,14 +55,19 @@ html {
   will-change: background-color, color;
   /* transition: background-color 0.2s ease-out 0s, color 0.2s ease-out 0s;
     will-change: background-color, color; */
+
+    
 }
-.hidecheckbox {
+ /* uncommented will hide the input circle */
+/* .radiobttn {
   position: absolute;
   z-index: -9999;
   width: 0px;
   height: 0px;
   opacity: 0;
-}
+} */
+
+
 .thoughtsContainer {
   background-color: white;
   margin-left: 17%;
