@@ -13,7 +13,7 @@ THEN they are given records of their past mood choices, what day and time they s
 ## Motivation
 Our motivation behind Mood App was to create a simplified version of an everyday journal that allows you to quickly log how you are feeling on any given day, why you were feeling that way, and when you submitted that information. The user can then access their past choices at anytime and analyse patterns in their past that cause their mood to be positive or negative. As an added bonus to the application, when the user choices a mood for the day, they are presented with a randomly generated quote or fun fact to help lift their spirits if they are feeling down, or reinforce their good mood when they are feeling happy. 
 ## Link to Application
-<!-- insert link here -->
+https://dark-chupacabra-30391.herokuapp.com/
 ## Repo Link
 https://github.com/alemus98/Mood-App
 ## Screenshot
