@@ -14,12 +14,16 @@ html {
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100%;
-
   font-family: "Vibur", cursive;
-
   font-family: "Abel", sans-serif;
   opacity: 0.95;
   padding: 10%;
+}
+
+.navbar {
+  position: absolute;
+  top: 0%;
+  left: 0%;
 }
 
 .welcome {
