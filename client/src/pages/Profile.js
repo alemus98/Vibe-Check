@@ -1,5 +1,14 @@
 import React from "react";
-import { Navigate, useParams } from "react-router-dom";
+import {
+  Jumbotron,
+  Container,
+  CardColumns,
+  Card,
+  Button,
+  Navbar,
+  Nav
+} from 'react-bootstrap';
+import { Navigate, useParams, Link } from "react-router-dom";
 import { useQuery } from "@apollo/client";
 import { QUERY_MOODS, QUERY_ME } from "../utils/queries";
 
@@ -30,8 +39,34 @@ const Profile = () => {
       </h4>
     );
   }
-  return <div>
-    profile
-  </div>;
+  return (
+    <>
+      <Navbar bg="light" expand="lg">
+        <Container>
+          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link as={Link} to="/home">Moods Home</Nav.Link>
+              <Nav.Link as={Link} to="/" >Logout</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+      <Jumbotron fluid className="text-light bg-dark">
+        <Container>
+          <h1>Viewing {user.username}'s moods!</h1>
+        </Container>
+      </Jumbotron>
+      <Container>
+        <h2>
+          {user.moods?.length
+            ? `Viewing ${user.moods.length} saved ${user.moods.length === 1 ? 'mood' : 'moods'
+            }:`
+            : 'You have no saved moods!'}
+        </h2>
+      </Container>
+    </>
+  )
 };
 export default Profile;
