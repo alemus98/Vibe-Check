@@ -65,6 +65,19 @@ const Profile = () => {
             }:`
             : 'You have no saved moods!'}
         </h2>
+        <CardColumns>
+          {user.moods?.map((mood) => {
+            return (
+              <Card key={mood.moodId} border="dark">
+                {mood.moodType}
+                <Card.Body>
+                  <Card.Title>{mood.moodText}</Card.Title>
+                  <Card.Text>{mood.createdAt}</Card.Text>
+                </Card.Body>
+              </Card>
+            );
+          })}
+        </CardColumns>
       </Container>
     </>
   )

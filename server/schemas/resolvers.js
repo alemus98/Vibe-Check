@@ -48,7 +48,7 @@ const resolvers = {
         { _id: context.user._id },
         { $addToSet: { moods: mood._id } }
       );
-      console.log(mood.moodType)
+      // console.log(mood.moodType)
       const solutions = await Solutions.find({ moodType: mood.moodType });
       const singleSolution = solutions[Math.floor(Math.random() * solutions.length)]
       
