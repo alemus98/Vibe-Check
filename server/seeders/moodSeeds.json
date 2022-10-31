@@ -1,101 +1,101 @@
 [
   {
-    "moodType": "Angry",
+    "moodType": "angry",
     "username": "Donald Kooth",
     "solutionBody": "So you are feeling upset, Try exercising to reduce stress levels!"
   },
   {
-    "moodType": "Happy",
+    "moodType": "happy",
     "username": "Brian Kernighan",
     "solutionBody": "Did you know the pillsbury doughboy has a name?!It's Poppin' Fresh!"
   },
   {
-    "moodType": "Sad",
+    "moodType": "sad",
     "username": "Max Kanat-Alexander",
     "solutionBody": "Here's something to cheer you up.. Did you know Sea Otters hold hands when they sleep?"
   },
   {
-    "moodType": "Anxious",
+    "moodType": "anxious",
     "username": "Why The Lucky Stiff",
     "solutionBody": "Today has been tough, heres a tip to make you feel a little better. Did you know cuddling your loved ones helps you release oxytocin, which is known as the love hormone—it makes you feel happy!"
   },
   {
-    "moodType": "Angry",
+    "moodType": "angry",
     "username": "Kent Beck",
     "solutionBody": "Your smile can heal thousands; but your anger can kill millions. Your hand-shake can encourage tens of people while your finger-pointing can turn ten thousands away from you! By Israelmore Ayivor"
   },
   {
-    "moodType": "Happy",
+    "moodType": "happy",
     "username": "Edward V. Berard",
     "solutionBody": "Feeling good today, huh? Well here's a fun fact to keep you in good spirits... Did you know that what a goat sounds like heavily depends on the region they grow up in, just like humans."
   },
   {
-    "moodType": "Sad",
+    "moodType": "sad",
     "username": "Lernantino",
     "solutionBody": "Someday, everything will make perfect sense. So for now, laugh at the confusion, smile through the tears, and keep reminding yourself that everything happens for a reason."
   },
   {
-    "moodType": "Anxious",
-    "username": "Angry",
+    "moodType": "anxious",
+    "username": "angry",
     "solutionBody": "Nothing diminishes anxiety faster than action."
   },
   {
-    "moodType": "Happy",
+    "moodType": "happy",
     "username": "Alan Kay",
     "solutionBody": "It's a great day! Smiling is known to reduce stress so keep it up!"
   },
   {
-    "moodType": "Sad",
+    "moodType": "sad",
     "username": "C.A.R. Hoare",
     "solutionBody": "Nothing is permanent in this wicked world, not even our troubles."
   },
   {
-    "moodType": "Anxious",
+    "moodType": "anxious",
     "username": "David Thomas",
     "solutionBody": "Stress is an ignorant state. It believes that everything is an emergency. Nothing is that important."
   },
   {
-    "moodType": "Angry",
+    "moodType": "angry",
     "username": "Donald Knuth",
     "solutionBody": "Life is so short. The only person you hurt when you stay angry or hold grudges is you. Forgive everyone, including yourself. By Tom Giaquinto"
   },
   {
-    "moodType": "Happy",
+    "moodType": "happy",
     "username": "Alan Kay",
     "solutionBody": "Happiness is when what you think, what you say, and what you do are in harmony."
   },
   {
-    "moodType": "Sad",
+    "moodType": "sad",
     "username": "C.A.R. Hoare",
     "solutionBody": "What do you call a pig that does karate? A pork chop!"
   },
   {
-    "moodType": "Anxious",
+    "moodType": "anxious",
     "username": "David Thomas",
     "solutionBody": "Feeling anxious? Try putting an ice pack on your stomach for a few minutes!"
   },
   {
-    "moodType": "Angry",
+    "moodType": "angry",
     "username": "Donald Knuth",
     "solutionBody": "We cant control what people say, but we do have a say in how we react. Refusing to give others power over our feelings is a mark of emotional intelligence."
   },
   {
-    "moodType": "Angry",
+    "moodType": "angry",
     "username": "Donald Kooth",
     "solutionBody": "Breath in through your nose, and slowly out through your mouth. For every minute you remain angry, you give up sixty seconds of peace of mind."
   },
   {
-    "moodType": "Happy",
+    "moodType": "happy",
     "username": "Brian Kernighan",
     "solutionBody": "Did you know: Happiness lowers your risk for cardiovascular disease, lowers your blood pressure, enables better sleep, improves your diet, allows you to maintain a normal body weight through regular exercise and reduces stress. So keep it up!"
   },
   {
-    "moodType": "Sad",
+    "moodType": "sad",
     "username": "Max Kanat-Alexander",
     "solutionBody": "Joke time! What do you call a fake noodle? An impasta."
   },
   {
-    "moodType": "Anxious",
+    "moodType": "anxious",
     "username": "Why The Lucky Stiff",
     "solutionBody": "Mantra for Anxiety: This is not you. This is something moving through you. It can leave out of the same door it came in."
   }

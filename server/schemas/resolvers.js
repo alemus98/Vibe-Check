@@ -41,18 +41,18 @@ const resolvers = {
       const mood = await Mood.create({
         moodText,
         user: context.user._id,
-        moodType
+        moodType: moodType.toLowerCase()
       });
 
       await User.findOneAndUpdate(
         { _id: context.user._id },
         { $addToSet: { moods: mood._id } }
       );
-      
+      console.log(mood.moodType)
       const solutions = await Solutions.find({ moodType: mood.moodType });
       const singleSolution = solutions[Math.floor(Math.random() * solutions.length)]
-    
-      return singleSolution;
+      
+      return {solutionBody: singleSolution.solutionBody, moodType: mood.moodType};
     }
     throw new AuthenticationError('You need to be logged in!');
   },
